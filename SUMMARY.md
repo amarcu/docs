@@ -8,7 +8,7 @@
 ## Protocol
 
 * [FIAT](protocol/fiat/README.md)
-  * [Accounting](protocol/fiat/accounting.md)
+  * [Position](protocol/fiat/position.md)
   * [Auctions](protocol/fiat/auctions.md)
   * [Borrow Rates](protocol/fiat/borrow-rates.md)
   * [Surplus and Debt](protocol/fiat/surplus-and-debt.md)
