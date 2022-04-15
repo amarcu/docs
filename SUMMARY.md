@@ -28,8 +28,8 @@
 * [Age of Romulus](programs/age-of-romulus.md)
 * [Olympus Pro](programs/olympus-pro.md)
 
-## Group 1
+## Resources
 
-* [Governance Deployment](group-1/governance-deployment.md)
-* [Subgraph](group-1/subgraph.md)
-* [Glossary](group-1/glossary.md)
+* [Governance Deployment](resources/governance-deployment.md)
+* [Subgraph](resources/subgraph.md)
+* [Glossary](resources/glossary.md)
