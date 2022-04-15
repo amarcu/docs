@@ -17,10 +17,12 @@
 * [Delphi Oracle](protocol/delphi-oracle.md)
 * [Proxy Actions](protocol/proxy-actions.md)
 * [Launch Guards](protocol/launch-guards.md)
+* [Subgraph](protocol/subgraph.md)
 
 ## Governance
 
 * [Voting](governance/voting.md)
+* [Subgraph](governance/subgraph.md)
 
 ## Programs
 
@@ -31,5 +33,4 @@
 ## Resources
 
 * [Governance Deployment](resources/governance-deployment.md)
-* [Subgraph](resources/subgraph.md)
 * [Glossary](resources/glossary.md)
