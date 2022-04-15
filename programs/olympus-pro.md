@@ -18,9 +18,9 @@ The Olympus Pro marketplace can be found here: [https://pro.olympusdao.finance/#
 
 ### Olympus Pro Campaigns to Date
 
-| Campaign Dates      | Accumulated Asset     | Rationale                |
-| ------------------- | --------------------- | ------------------------ |
-| Dec. '21 - Mar. '22 | FDT-gOHM Sushiswap PT | Protocol Owned Liquidity |
-|                     |                       |                          |
-|                     |                       |                          |
+| Campaign Dates      | Accumulated Asset     | Bond Contract Link                                                                                                                                 |
+| ------------------- | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Dec. '21 - Mar. '22 | FDT-gOHM Sushiswap PT | [https://etherscan.io/address/0x8b17163fb08637d736a63d016123453c306aca7c](https://etherscan.io/address/0x8b17163fb08637d736a63d016123453c306aca7c) |
+|                     |                       |                                                                                                                                                    |
+|                     |                       |                                                                                                                                                    |
 
