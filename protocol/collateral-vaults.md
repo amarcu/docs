@@ -14,7 +14,7 @@ FIAT's Collateral Vaults give these DeFi users the flexibility to deposit bond t
 
 The Collateral Vaults interact with several other components in the FIAT ecosystem. These components are responsible for determining the fair price of illiquid assets, accounting for users' debt positions, and sending collateral to an auction in case of a liquidation event.
 
-## Features
+## Interaction
 
 ### Enter
 
