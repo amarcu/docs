@@ -17,3 +17,19 @@
 * [Delphi Oracle](protocol/delphi-oracle.md)
 * [Proxy Actions](protocol/proxy-actions.md)
 * [Launch Guards](protocol/launch-guards.md)
+
+## Governance
+
+* [Voting](governance/voting.md)
+
+## Programs
+
+* [Jubilee](programs/jubilee.md)
+* [Age of Romulus](programs/age-of-romulus.md)
+* [Olympus Pro](programs/olympus-pro.md)
+
+## Group 1
+
+* [Governance Deployment](group-1/governance-deployment.md)
+* [Subgraph](group-1/subgraph.md)
+* [Glossary](group-1/glossary.md)
