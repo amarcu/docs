@@ -23,7 +23,7 @@
 
 * [🏛 Voting](governance/voting.md)
 * [📊 Subgraph](governance/subgraph.md)
-* [Deployment](governance/deployment.md)
+* [💾 Deployment](governance/deployment.md)
 
 ## Programs
 
