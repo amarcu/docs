@@ -23,6 +23,7 @@
 
 * [Voting](governance/voting.md)
 * [Subgraph](governance/subgraph.md)
+* [Governance Deployment](governance/governance-deployment.md)
 
 ## Programs
 
@@ -32,5 +33,4 @@
 
 ## Resources
 
-* [Governance Deployment](resources/governance-deployment.md)
 * [Glossary](resources/glossary.md)
