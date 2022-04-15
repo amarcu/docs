@@ -2,7 +2,7 @@
 description: Familiarize yourself with FIAT DAO in its entirety
 ---
 
-# Getting Started
+# 🚀 Getting Started
 
 FIAT DAO is the on-chain cooperative stewarding the development of the FIAT protocol. FIAT stands for **F**ixed **I**ncome **A**sset **T**oken. FIAT allows user to mint a singular ERC-20 stable value asset against a universe of fixed income assets, facilitating both leverage and secondary market use cases.&#x20;
 

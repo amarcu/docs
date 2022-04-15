@@ -1,2 +1,2 @@
-# Delphi Oracle
+# 🔮 Delphi Oracle
 

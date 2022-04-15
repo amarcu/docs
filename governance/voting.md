@@ -1,2 +1,2 @@
-# Voting
+# 🏛 Voting
 

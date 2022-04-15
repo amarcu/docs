@@ -9,7 +9,7 @@
 
 * [🌅 FIAT](protocol/fiat/README.md)
   * [Position](protocol/fiat/position.md)
-  * [Auctions](protocol/fiat/auctions.md)
+  * [Collateral Auctions](protocol/fiat/collateral-auctions.md)
   * [Borrow Rates](protocol/fiat/borrow-rates.md)
   * [Surplus and Debt](protocol/fiat/surplus-and-debt.md)
   * [Emergency Shutdown](protocol/fiat/emergency-shutdown.md)

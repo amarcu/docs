@@ -1,2 +1,2 @@
-# Proxy Actions
+# 🪄 Proxy Actions
 
