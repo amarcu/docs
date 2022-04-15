@@ -8,7 +8,7 @@
 ## Protocol
 
 * [🌅 FIAT](protocol/fiat/README.md)
-  * [Position](protocol/fiat/position.md)
+  * [Position Management](protocol/fiat/position-management.md)
   * [Collateral Auctions](protocol/fiat/collateral-auctions.md)
   * [Borrow Rates](protocol/fiat/borrow-rates.md)
   * [Surplus and Debt](protocol/fiat/surplus-and-debt.md)
