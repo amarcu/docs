@@ -27,9 +27,9 @@
 
 ## Programs
 
-* [Jubilee](programs/jubilee.md)
-* [Age of Romulus](programs/age-of-romulus.md)
-* [Olympus Pro](programs/olympus-pro.md)
+* [🎉 Jubilee](programs/jubilee.md)
+* [🖼 Age of Romulus](programs/age-of-romulus.md)
+* [♎ Olympus Pro](programs/olympus-pro.md)
 
 ## Resources
 
