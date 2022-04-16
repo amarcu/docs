@@ -2,7 +2,7 @@
 
 For each asset supported by FIAT a user can create a [`Position`](https://github.com/fiatdao/fiat/blob/main/src/Codex.sol#L70) which is comprised of the current absolute amounts of collateral (of the supported asset) and normalized debt (realized as $FIAT). A position is uniquely [identified](https://github.com/fiatdao/fiat/blob/main/src/Codex.sol#L70) by its collateral asset (Address of the Vault + `TokenId`) and the original creator of the Position.
 
-#### Depositing and Withdrawing assets in and out of FIAT
+#### Depositing and Withdrawing collateral assets in and out of FIAT
 
 Each approved Vault in Codex is able to call `modifyBalance` which records deposited collateral amounts for each depositor. For more information see [Collateral Vaults](../collateral-vaults.md).
 
@@ -18,6 +18,10 @@ Each approved Vault in Codex is able to call `modifyBalance` which records depos
 
 `ModifyCollateralAndDebt(vault, tokenId, user, collateralizer, creditor, deltaCollateral, deltaNormalDebt)` allows for adjusting `collateral` and `normalDebt` of a Position. Whereby `user` is the owner of the Position, `collateralizer` is the account from which collateral is transferred to or from the Position, `creditor` account from which `credit`is transferred to or from the Position, depending on if the `deltaCollateral` and `deltaNormalDebt` amounts are positive or negative.
 
+#### Depositing and Withdrawing $FIAT in and out of FIAT
+
+After collateralizing a Position and minting `credit` by generating `debt` in a Position, the user is able to redeem it for $FIAT by calling `exit` on `Moneta` which transfers the internal `credit` to `Moneta` and in return mints $FIAT to the users. Likewise if a user wants repay a portion or all of the debt for a Position he calls `enter` on `Moneta` which burns the users $FIAT and in return transfers an equal amount of internal `credit` to the user which can then be used to cancel out an equal amount of `debt`. Before exiting $FIAT out of FIAT the users has to call `grantDelegate` to allow `Moneta` to transfer the internal credit on their behalf. Before entering $FIAT the user has to approve `Moneta` by calling `setAllowance` on $FIAT.
+
 #### Delegating ownership of a Position
 
-The owner of a Position can delegate the right to call `ModifyCollateralAndDebt` to another address for managing collateral-to-debt ratios by calling `grantDelegate` and `revokeDelegate` .
+The owner of a Position can delegate the right to call `ModifyCollateralAndDebt` for managing collateral-to-debt ratios of the owned Positions, `transferBalance` to transfer internal collateral assets and `transferCredit` to transfer internal `credit` to another account by calling `grantDelegate` and `revokeDelegate`.
