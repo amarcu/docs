@@ -3,7 +3,6 @@
 ## Introduction
 
 * [🚀 Getting Started](README.md)
-* [🔗 Important Links](introduction/important-links.md)
 * [😎 Smart Contract Addresses](introduction/smart-contract-addresses.md)
 
 ## Protocol
