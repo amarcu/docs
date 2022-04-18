@@ -2,9 +2,9 @@
 
 ## Introduction
 
-* [😎 Smart Contract Addresses](README.md)
-* [🚀 Getting Started](<README (1).md>)
+* [🚀 Getting Started](README.md)
 * [🔗 Important Links](introduction/important-links.md)
+* [😎 Smart Contract Addresses](introduction/smart-contract-addresses.md)
 
 ## Protocol
 
