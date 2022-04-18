@@ -35,3 +35,4 @@
 ## Resources
 
 * [📖 Glossary](resources/glossary.md)
+* [⛽ Gas Tables](resources/gas-tables.md)
