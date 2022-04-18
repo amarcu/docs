@@ -1,2 +1,2 @@
-# Smart Contract Addresses
+# 😎 Smart Contract Addresses
 

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-* [Smart Contract Addresses](README.md)
+* [😎 Smart Contract Addresses](README.md)
 * [🚀 Getting Started](<README (1).md>)
 * [🔗 Important Links](introduction/important-links.md)
 
