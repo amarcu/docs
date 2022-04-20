@@ -19,7 +19,7 @@ Please refer to the [**Changelog**](https://github.com/fiatdao/changelog) repo f
 
 ### Protocol
 
-| Aspect       | Mainnet                                    |
+| Contract     | Mainnet                                    |
 | ------------ | ------------------------------------------ |
 | **Aer**      | 0x19B3ccB3D4493ACb9FA4BC7a1ec99b906A32ae72 |
 | **Codex**    | 0x6bF5EB06201e4ea7C315b1C23BfE79fAE30541F9 |
