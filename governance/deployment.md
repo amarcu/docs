@@ -14,9 +14,8 @@
 **Rewards v1 (DAO Staking)**\
 ****[0x2458fd408f5d2c61a4819e9d6db43a81011e42a7](https://etherscan.io/address/0x2458fd408f5d2c61a4819e9d6db43a81011e42a7)
 
-**Rewards v2 (DAO Staking)**
-
-[0x314d7df34b72e485a5c5fdfaeff7ded6335b3a6e](https://etherscan.io/address/0x314d7df34b72e485a5c5fdfaeff7ded6335b3a6e)
+**Rewards v2 (DAO Staking)**\
+****[0x314d7df34b72e485a5c5fdfaeff7ded6335b3a6e](https://etherscan.io/address/0x314d7df34b72e485a5c5fdfaeff7ded6335b3a6e)
 
 **Comitium**\
 ****[0x4645d1cf3f4ce59b06008642e74e60e8f80c8b58](https://etherscan.io/address/0x4645d1cf3f4ce59b06008642e74e60e8f80c8b58)
