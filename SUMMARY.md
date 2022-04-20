@@ -17,7 +17,7 @@
 * [🪄 Proxy Actions](protocol/proxy-actions.md)
 * [🛡 Launch Guards](protocol/launch-guards.md)
 * [📊 Subgraph](protocol/subgraph.md)
-* [💾 Smart Contract Addresses](protocol/smart-contract-addresses.md)
+* [💾 Deployment](protocol/deployment.md)
 
 ## Governance
 
