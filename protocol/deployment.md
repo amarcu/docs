@@ -12,22 +12,22 @@ Please refer to the [**Changelog**](https://github.com/fiatdao/changelog) repo f
 
 ### Tokens
 
-| Token    | Mainnet                                    | Goerli                                     |
-| -------- | ------------------------------------------ | ------------------------------------------ |
-| **FIAT** | 0x586Aa273F262909EEF8fA02d90Ab65F5015e0516 | 0x7c9571148968d05608d324463E38F04a7eAAd53e |
-| **FDT**  | 0xEd1480d12bE41d92F36f5f7bDd88212E381A3677 | 0xa28Bd1A33b47827f154F703C2BfD213801106460 |
+| Token    | Mainnet                                    |
+| -------- | ------------------------------------------ |
+| **FIAT** | 0x586Aa273F262909EEF8fA02d90Ab65F5015e0516 |
+| **FDT**  | 0xEd1480d12bE41d92F36f5f7bDd88212E381A3677 |
 
 ### Protocol
 
-| Aspect       | Mainnet                                    | Goerli                                     |
-| ------------ | ------------------------------------------ | ------------------------------------------ |
-| **Aer**      | 0x19B3ccB3D4493ACb9FA4BC7a1ec99b906A32ae72 | 0xdf448d166091faC56F5B09459Fa0D76421aC69D4 |
-| **Codex**    | 0x6bF5EB06201e4ea7C315b1C23BfE79fAE30541F9 | 0x56974fC4bB4Dc18dDDa06B2056f1Bdfef0eCA0FF |
-| **Collybus** | 0xD503383fFABbec8Eb85eAED448fE1fFEc0a8148A | 0xB894853D5771B588530394065D44A33BcB314aC5 |
-| **Limes**    | 0x711faAcb9395c0a47A54D0178D623DA5Aa2dA9a0 | 0x195C99912D9A11EDf86Ad976683cC0Ebf05A502c |
-| **Moneta**   | 0xEA8Efd605845F4cFAa8Ee6c757390196E1b3f736 | 0xacB75532D1D83321f9B95f9b1eE6Bf3F9c2c475D |
-| **Publican** | 0x3fF548c77A82B377258b5220164E7Ae267eD8978 | 0x9278785Fd998f527B2dBad2ed83d18a69DD50C14 |
-| **Tenebrae** | 0xEBF0ccd9745f0687C8E9A7bFBE31E69869e4AB9c | 0x3ae8ad24912a621F7c4290A1cFcAE665a40Ea432 |
+| Aspect       | Mainnet                                    |
+| ------------ | ------------------------------------------ |
+| **Aer**      | 0x19B3ccB3D4493ACb9FA4BC7a1ec99b906A32ae72 |
+| **Codex**    | 0x6bF5EB06201e4ea7C315b1C23BfE79fAE30541F9 |
+| **Collybus** | 0xD503383fFABbec8Eb85eAED448fE1fFEc0a8148A |
+| **Limes**    | 0x711faAcb9395c0a47A54D0178D623DA5Aa2dA9a0 |
+| **Moneta**   | 0xEA8Efd605845F4cFAa8Ee6c757390196E1b3f736 |
+| **Publican** | 0x3fF548c77A82B377258b5220164E7Ae267eD8978 |
+| **Tenebrae** | 0xEBF0ccd9745f0687C8E9A7bFBE31E69869e4AB9c |
 
 ### Delphi Oracle (Mainnet)
 
