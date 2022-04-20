@@ -27,9 +27,9 @@ Please refer to the [**Changelog**](https://github.com/fiatdao/changelog) repo f
 | **Publican** | 0x3fF548c77A82B377258b5220164E7Ae267eD8978 | 0x9278785Fd998f527B2dBad2ed83d18a69DD50C14 |
 | **Tenebrae** | 0xEBF0ccd9745f0687C8E9A7bFBE31E69869e4AB9c | 0x3ae8ad24912a621F7c4290A1cFcAE665a40Ea432 |
 
-### Delphi Oracles (Mainnet)
+### Delphi Oracle (Mainnet)
 
-| Asset        | Provider                                   | Relayer                                    |
+| Spot         | Provider                                   | Relayer                                    |
 | ------------ | ------------------------------------------ | ------------------------------------------ |
 | **DAI**      | 0xC60a780d62314E2C722d3904EB65ce5bfbDaDBf1 | 0x76DC496b194980bFe45733aF15071cc92740A8Be |
 | **USDC**     | 0x8ebFb8d1d6f21197a9C64328BE1b4Df52CD88F95 | 0x9BeE1A78599915aeD57e637b9cB1DC4b4148fee6 |
@@ -39,9 +39,7 @@ Please refer to the [**Changelog**](https://github.com/fiatdao/changelog) repo f
 
 #### **Element Finance**
 
-Principal Token Vault Actions: **** 0x0021DCEeb93130059C2BbBa7DacF14fe34aFF23c
-
-| Asset            | Maturity        | Contract                                   |
+| Vault            | Maturity        | Contract                                   |
 | ---------------- | --------------- | ------------------------------------------ |
 | **ePyvUSDC**     | April 29th 2022 | 0xd9080BAC070cf47CBDb7223D2440cF8E978e6b45 |
 | **ePyvDAI**      | April 29th 2022 | 0xEA016f6a5eaAc396BAA3aA712E8d3f20764cbb1f |
