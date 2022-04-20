@@ -2,7 +2,7 @@
 description: Smart contracts currently deployed on Ethereum as of April 18th 2022
 ---
 
-# 😎 Smart Contract Addresses
+# 💾 Smart Contract Addresses
 
 {% hint style="warning" %}
 Please refer to the [**Changelog**](https://github.com/fiatdao/changelog) repo for the canonical address list
