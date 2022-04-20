@@ -1,5 +1,7 @@
 ---
-description: Smart contracts currently deployed on Ethereum as of April 18th 2022
+description: >-
+  Excerpt of some of the smart contracts currently deployed on Ethereum as of
+  April 18th 2022
 ---
 
 # 💾 Deployment
