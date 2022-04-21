@@ -4,10 +4,6 @@
 
 #### Supported Tokens
 
-When a user locks DAI, USDC, or LUSD3CRV-f in an Element Finance fixed rate term contract, Element finance will mint Principal Tokens that are specific to the tranche the user entered. Each tranche is differentiated by the underlying token and maturity date.&#x20;
-
-While the underlying assets are locked for a fixed term, a user can deposit Principal Tokens in a FIAT vault that matches the correct asset type and maturity date.
-
 The FIAT protocol has vaults that support deposits for 3 Element Finance asset types:
 
 * DAI Principal Token
@@ -18,38 +14,32 @@ More info on pTokens: [https://docs.element.fi/element/principal-tokens](https:/
 
 How to acquire pTokens: [https://docs.element.fi/getting-started/buying-fixed-rates](https://docs.element.fi/getting-started/buying-fixed-rates)
 
-#### Token vs Underlier
+## Fair Price
 
-In the contract code for VaultEPT.sol there are public view methods for `token()` and `underlierToken()`.&#x20;
+#### Discount Rate
 
-`token()` returns the address of the principal token, and `underlierToken()` returns the address of the token deposited in the Element Finance tranche (DAI, USD, or LUSD3CRV-f)
-
-## Collybus Discount Rate
-
-All Element Finance vaults use the same precomputed fixed discount rate for computing the fair price of the deposited assets.&#x20;
+Currently all Element Finance PToken vaults use the same precomputed fixed discount rate for computing the fair price of the deposited assets.
 
 $$
 rate = (1.1^{\frac{1}{365*86400}}-1) * 10^{18} 
 \\ rate = 3022265993
 $$
 
-
-
 ## Actions
 
-The following actions wrap multiple transactions into a single transaction for the user.
+The following methods wrap multiple actions into a single transaction for proxy users.
 
 #### [buyCollateralAndModifyDebt](https://github.com/fiatdao/actions/blob/main/src/vault/VaultEPTActions.sol#L137)
 
-Swaps the underlying token for a pToken to be used as collateral. The pToken is entered into a vault and the user's collateral is updated. A calculated amount of FIAT is minted and sent to the user.
+Enables minting FIAT with the underlier (e.g. USDC) directly. It swaps the underlying token for the corresponding PToken and enters the PToken into the Vault (e.g. ePyvUSDC Vault).
 
 #### [sellCollateralAndModifyDebt](https://github.com/fiatdao/actions/blob/main/src/vault/VaultEPTActions.sol#L177)
 
-Sells pTokens for the underlying token after modifying the position's collateral and debt balances. This method allows for selling pTokens after the maturity date.
+Enables burning FIAT and withdrawing the underlier (e.g. USDC) directly. It exits the corresponding PToken from the Vault and swaps it for the underlier. Selling PToken for the underlying works even if the PToken has matured. Though the user should in this case use `redeemCollateralAndModify` to avoid high price impacts due to liquidity constraints on the PToken AMM.
 
 #### [redeemCollateralAndModifyDebt](https://github.com/fiatdao/actions/blob/main/src/vault/VaultEPTActions.sol#L218)
 
-Redeems pTokens for the underlying token after it modifies a position's collateral and debt balances.&#x20;
+Enables burning FIAT and withdrawing the underlier (e.g. USDC) directly after maturity. It exits the corresponding PToken from the Vault and redeems it for the underlier. This only works if the PToken has matured - otherwise it will revert.&#x20;
 
 ## Properties
 
