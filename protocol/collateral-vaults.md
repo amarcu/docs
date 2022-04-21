@@ -8,6 +8,24 @@ Before users are able to mint new $FIAT (by opening a position), users first hav
 
 Before users are able to withdraw collateral from the system, users first have to transfer the collateral out of the corresponding Position by calling `ModifyCollateralAndDebt`. This will only succeed if the collateral-to-loan ratio of the Position is still safe after the transfer. Users will have to repay a portion or all of their outstanding debt to be able to do so. After the internal collateral transfer from their Position to their internal balance (`balances`) they are able to call exit on the respective Vault.
 
+#### Fair Price
+
+Fair price for the deposited assets are determined using the following formula:
+
+$$
+fairPrice = \frac{10^{18}}{(1+discountRate)^{maturity - timestamp}}
+$$
+
+The discount rate can vary depending on the vault type.
+
+#### Maximum Debt Position
+
+The maximum amount of debt a user take in a position is enforced via the following formula:
+
+$$
+debt \leq collateral * \frac{fairPrice}{liquidationRatio}
+$$
+
 
 
 
