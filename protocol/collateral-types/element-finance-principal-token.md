@@ -2,9 +2,9 @@
 
 The protocol enables FIAT to be minted against Element Finance Principal Tokens. Principal Token represent a claim on a future cashflow. Principal Tokens can be bought at a discount on Element Finances AMMs. Given the time value of money - Principal Tokens usually trade at a discount and thus can be viewed as Zero Coupon Bonds.
 
-More info on pTokens: [https://docs.element.fi/element/principal-tokens](https://docs.element.fi/element/principal-tokens)
+More info on Principal Tokens: [https://docs.element.fi/element/principal-tokens](https://docs.element.fi/element/principal-tokens)
 
-How to acquire pTokens: [https://docs.element.fi/getting-started/buying-fixed-rates](https://docs.element.fi/getting-started/buying-fixed-rates)
+How to acquire Principal Tokens: [https://docs.element.fi/getting-started/buying-fixed-rates](https://docs.element.fi/getting-started/buying-fixed-rates)
 
 ## Principal Token Vault
 
