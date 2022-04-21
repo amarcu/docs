@@ -8,7 +8,7 @@ How to acquire Principal Tokens: [https://docs.element.fi/getting-started/buying
 
 ## Principal Token Vault
 
-For each supported maturity of a Principal Token there's a Minimal Proxy based Vault deployed which delegate-calls to the actual implementation of Principal Token Vault ([VaultEPT](https://github.com/fiatdao/vaults/blob/main/src/VaultEPT.sol)) which is deployed for each [`Wrapped Position`](https://docs.element.fi/element/element-smart-contracts/core-protocol-contracts/wrapped-position).&#x20;
+For each supported maturity of a Principal Token there's a Minimal Proxy based Vault deployed which delegate-calls into the actual implementation of Principal Token Vault ([VaultEPT](https://github.com/fiatdao/vaults/blob/main/src/VaultEPT.sol)) which is deployed for each [`Wrapped Position`](https://docs.element.fi/element/element-smart-contracts/core-protocol-contracts/wrapped-position).&#x20;
 
 ## Fair Price of a Principal Token
 
@@ -21,7 +21,7 @@ rate = (1.1^{\frac{1}{365*86400}}-1) * 10^{18}
 \\ rate = 3022265993
 $$
 
-## Convenience Functions / Zaps
+## Convenience Methods / Zaps
 
 The following methods wrap multiple actions into a single transaction for proxy users.
 
