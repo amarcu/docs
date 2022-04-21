@@ -12,14 +12,14 @@
   * [Borrow Rates](protocol/fiat/borrow-rates.md)
   * [Surplus and Debt](protocol/fiat/surplus-and-debt.md)
   * [Emergency Shutdown](protocol/fiat/emergency-shutdown.md)
+* [💰 Collateral Types](protocol/collateral-types/README.md)
+  * [Element Finance Principal Token](protocol/collateral-types/element-finance-principal-token.md)
 * [🔮 Delphi Oracle](protocol/delphi-oracle.md)
 * [🪄 Proxy Actions](protocol/proxy-actions.md)
 * [🛡 Launch Guards](protocol/launch-guards.md)
 * [📊 Subgraph](protocol/subgraph.md)
 * [🏺 Collateral Vaults](protocol/collateral-vaults.md)
 * [💾 Deployment](protocol/deployment.md)
-* [💰 Collateral Types](protocol/collateral-types/README.md)
-  * [Element Finance Principal Token](protocol/collateral-types/element-finance-principal-token.md)
 
 ## Governance
 
