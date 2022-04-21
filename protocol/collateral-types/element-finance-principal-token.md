@@ -17,8 +17,7 @@ For each supported maturity of a Principal Token there's a Minimal Proxy based V
 Currently all Element Finance PToken vaults use the same precomputed fixed discount rate for computing the fair price of the deposited assets.
 
 $$
-rate = (1.1^{\frac{1}{365*86400}}-1) * 10^{18} 
-\\ rate = 3022265993
+rate = (1.1^{\frac{1}{365*86400}}-1) * 10^{18}  = 3022265993
 $$
 
 ## Convenience Methods / Zaps
