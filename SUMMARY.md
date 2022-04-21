@@ -19,7 +19,7 @@
 * [🏺 Collateral Vaults](protocol/collateral-vaults.md)
 * [💾 Deployment](protocol/deployment.md)
 * [💰 Collateral Types](protocol/collateral-types/README.md)
-  * [Element Finance](protocol/collateral-types/element-finance.md)
+  * [Element Finance Principal Token](protocol/collateral-types/element-finance-principal-token.md)
 
 ## Governance
 

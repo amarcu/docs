@@ -1,18 +1,14 @@
-# Element Finance
+# Element Finance Principal Token
 
-## Vaults
-
-#### Supported Tokens
-
-The FIAT protocol has vaults that support deposits for 3 Element Finance asset types:
-
-* DAI Principal Token
-* USDC Principal Token
-* LUSD3CRV-f Principal Token
+The protocol enables FIAT to be minted against Element Finance Principal Tokens. Principal Token represent a claim on a future cashflow. Principal Tokens can be bought at a discount on Element Finances AMMs. Given the time value of money - Principal Tokens usually trade at a discount and thus can be viewed as Zero Coupon Bonds.
 
 More info on pTokens: [https://docs.element.fi/element/principal-tokens](https://docs.element.fi/element/principal-tokens)
 
 How to acquire pTokens: [https://docs.element.fi/getting-started/buying-fixed-rates](https://docs.element.fi/getting-started/buying-fixed-rates)
+
+## Vault
+
+For each supported maturity of a Principal Token there's a Minimal Proxy based Vault deployed which delegate-calls to the actual implementation of Principal Token Vault ([VaultEPT](https://github.com/fiatdao/vaults/blob/main/src/VaultEPT.sol)) which is deployed for each [`Wrapped Position`](https://docs.element.fi/element/element-smart-contracts/core-protocol-contracts/wrapped-position).&#x20;
 
 ## Fair Price
 
