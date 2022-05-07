@@ -14,7 +14,7 @@ For each supported maturity of a Principal Token there's a Minimal Proxy based V
 
 #### Fair Price
 
-see [Collateral Vaults](../collateral-vaults.md)
+see [Collateral Vaults](./)
 
 #### Discount Rate
 

@@ -14,7 +14,7 @@ For each supported tenor (e.g. 3 months, 6 months, 12 months) of an fCash asset 
 
 #### Fair Price
 
-see [Collateral Vaults](../collateral-vaults.md)
+see [Collateral Vaults](./)
 
 #### Discount Rate
 

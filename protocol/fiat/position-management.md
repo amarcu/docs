@@ -4,14 +4,14 @@ For each asset supported by FIAT a user can create a [`Position`](https://github
 
 #### Depositing and Withdrawing collateral assets in and out of FIAT
 
-Each approved Vault in Codex is able to call `modifyBalance` which records deposited collateral amounts for each depositor. For more information see [Collateral Vaults](../collateral-vaults.md).
+Each approved Vault in Codex is able to call `modifyBalance` which records deposited collateral amounts for each depositor. For more information see [Collateral Vaults](../collateral-vaults/).
 
 #### Terms
 
-* `collateral`:  amount of collateral units corresponding to a deposited asset, identified by the address of the Vault it has been deposited in and a `TokenId` (0 for ERC20 tokens)
+* `collateral`: amount of collateral units corresponding to a deposited asset, identified by the address of the Vault it has been deposited in and a `TokenId` (0 for ERC20 tokens)
 * `normalDebt`: amount of gross debt of a position where the borrow rate accumulator has not been applied to
 * `debt`: amount of net debt of a position where the borrow rate accumulator has been applied to (amount of debt which the owner has to be repay to retrieve the full collateralized amount)
-* `credit`: amount of credit units which can be transferred between accounts and realized in form of $FIAT via `Moneta`- is minted to / burned from the `creditor` by taking out  or repaying debt on a Position
+* `credit`: amount of credit units which can be transferred between accounts and realized in form of $FIAT via `Moneta`- is minted to / burned from the `creditor` by taking out or repaying debt on a Position
 * `unbackedDebt:` amount of debt which is not backed by collateral which can be canceled out via a surplus of `credit`
 
 #### Adjusting a Position's collateral-to-debt ratio
