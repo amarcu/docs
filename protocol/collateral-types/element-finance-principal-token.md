@@ -8,16 +8,20 @@ How to acquire Principal Tokens: [https://docs.element.fi/getting-started/buying
 
 ## Principal Token Vault
 
-For each supported maturity of a Principal Token there's a Minimal Proxy based Vault deployed which delegate-calls into the actual implementation of Principal Token Vault ([VaultEPT](https://github.com/fiatdao/vaults/blob/main/src/VaultEPT.sol)) which is deployed for each [`Wrapped Position`](https://docs.element.fi/element/element-smart-contracts/core-protocol-contracts/wrapped-position).&#x20;
+For each supported maturity of a Principal Token there's a Minimal Proxy based Vault deployed which delegate-calls into the actual implementation of Principal Token Vault ([VaultEPT](https://github.com/fiatdao/vaults/blob/main/src/VaultEPT.sol)) which is deployed for each [`Wrapped Position`](https://docs.element.fi/element/element-smart-contracts/core-protocol-contracts/wrapped-position).
 
-## Fair Price of a Principal Token
+## Pricing Principal Tokens
+
+#### Fair Price
+
+see [Collateral Vaults](../collateral-vaults.md)
 
 #### Discount Rate
 
-Currently all Element Finance PToken vaults use the same precomputed fixed discount rate for computing the fair price of the deposited assets.
+Currently all Element Finance Principal Token vaults use the same precomputed fixed discount rate for computing the fair price of the deposited assets.
 
 $$
-rate = (1.1^{\frac{1}{365*86400}}-1) * 10^{18}  = 3022265993
+rate = (1.1^{\frac{1}{365*86400}}-1) * 10^{18} = 3022265993
 $$
 
 ## Convenience Methods / Zaps
@@ -34,9 +38,9 @@ Enables burning FIAT and withdrawing the underlier (e.g. USDC) directly. It exit
 
 #### [redeemCollateralAndModifyDebt](https://github.com/fiatdao/actions/blob/main/src/vault/VaultEPTActions.sol#L218)
 
-Enables burning FIAT and withdrawing the underlier (e.g. USDC) directly after maturity. It exits the corresponding PToken from the Vault and redeems it for the underlier. This only works if the PToken has matured - otherwise it will revert.&#x20;
+Enables burning FIAT and withdrawing the underlier (e.g. USDC) directly after maturity. It exits the corresponding PToken from the Vault and redeems it for the underlier. This only works if the PToken has matured - otherwise it will revert.
 
-## Collateral Parameters&#x20;
+## Collateral Parameters
 
 | Name                            | Address                                    | Liquidation Ratio | Interest Per Second | Debt Floor | Debt Ceiling     | Multiplier | Max Auction Duration | Auction Debt Floor |
 | ------------------------------- | ------------------------------------------ | ----------------- | ------------------- | ---------- | ---------------- | ---------- | -------------------- | ------------------ |
