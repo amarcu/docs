@@ -19,3 +19,19 @@ see [Collateral Vaults](../collateral-vaults.md)
 #### Discount Rate
 
 see [Delphi Oracle](../delphi-oracle/oracle/implementations/notional-finance.md)
+
+## Convenience Methods / Zaps
+
+The following methods wrap multiple actions into a single transaction for proxy users.
+
+#### [buyCollateralAndModifyDebt](https://github.com/fiatdao/actions/blob/main/src/vault/VaultFCActions.sol#L327)
+
+Enables minting FIAT with the underlier (e.g. USDC) directly. It swaps the underlying token for the corresponding fCash token and enters the fCash into the Vault (e.g. fcUSDC\_3MONTH Vault).
+
+#### [sellCollateralAndModifyDebt](https://github.com/fiatdao/actions/blob/main/src/vault/VaultFCActions.sol#L372)
+
+Enables burning FIAT and withdrawing the underlier (e.g. USDC) directly. It exits the corresponding fCash tokens from the Vault and swaps it for the underlier. Selling fCash for the underlying does not works if the fCash asset has matured. The user should in this case use `redeemCollateralAndModify`.
+
+#### [redeemCollateralAndModifyDebt](https://github.com/fiatdao/actions/blob/main/src/vault/VaultFCActions.sol#L417)
+
+Enables burning FIAT and withdrawing the underlier (e.g. USDC) directly after maturity. It exits the corresponding fCash token from the Vault and redeems it for the underlier. This only works if the fCash asset has matured - otherwise it will revert.
