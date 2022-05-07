@@ -10,13 +10,13 @@ Abstract Oracle implementations fall into two categories. We have oracles that c
 
 List of Discount Rate Oracles:
 
-* [Notional Finance ](notional-finance.md)- `NotionalFianceValueProvider`
-* [Yield](yield.md) - `YieldValueProvider`
+* [Notional Finance ](notional-finance-fcash.md)- `NotionalFianceValueProvider`
+* [Yield](yield-protocol-fytoken.md) - `YieldValueProvider`
 
 List of Spot Oracles:
 
-* [Chainlink](chainlink.md) - `ChainlinkValueProvider`
-* [Chainlink + Curve Pool](chainlink-+-curve-pool.md) - `LUSD3CRVValueProvider`
+* [Chainlink](chainlink-underlier-feed.md) - `ChainlinkValueProvider`
+* [Chainlink + Curve Pool](chainlink-+-curve-lp-token-feed.md) - `LUSD3CRVValueProvider`
 
 ### 📘 References
 

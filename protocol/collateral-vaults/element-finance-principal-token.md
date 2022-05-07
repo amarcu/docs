@@ -1,4 +1,4 @@
-# Element Finance Principal Token
+# Element Finance pTokens
 
 The protocol enables FIAT to be minted against Element Finance Principal Tokens. Principal Token represent a claim on a future cashflow. Principal Tokens can be bought at a discount on Element Finances AMMs. Given the time value of money - Principal Tokens usually trade at a discount and thus can be viewed as Zero Coupon Bonds.
 
@@ -30,15 +30,15 @@ The following methods wrap multiple actions into a single transaction for proxy 
 
 #### [buyCollateralAndModifyDebt](https://github.com/fiatdao/actions/blob/main/src/vault/VaultEPTActions.sol#L137)
 
-Enables minting FIAT with the underlier (e.g. USDC) directly. It swaps the underlying token for the corresponding PToken and enters the PToken into the Vault (e.g. ePyvUSDC Vault).
+Enables minting FIAT with the underlier (e.g. USDC) directly. It swaps the underlying token for the corresponding pToken and enters the pToken into the Vault (e.g. ePyvUSDC Vault).
 
 #### [sellCollateralAndModifyDebt](https://github.com/fiatdao/actions/blob/main/src/vault/VaultEPTActions.sol#L177)
 
-Enables burning FIAT and withdrawing the underlier (e.g. USDC) directly. It exits the corresponding PToken from the Vault and swaps it for the underlier. Selling PToken for the underlying works even if the PToken has matured. Though the user should in this case use `redeemCollateralAndModify` to avoid high price impacts due to liquidity constraints on the PToken AMM.
+Enables burning FIAT and withdrawing the underlier (e.g. USDC) directly. It exits the corresponding pToken from the Vault and swaps it for the underlier. Selling pToken for the underlying works even if the pToken has matured. Though the user should in this case use `redeemCollateralAndModify` to avoid high price impacts due to liquidity constraints on the pToken AMM.
 
 #### [redeemCollateralAndModifyDebt](https://github.com/fiatdao/actions/blob/main/src/vault/VaultEPTActions.sol#L218)
 
-Enables burning FIAT and withdrawing the underlier (e.g. USDC) directly after maturity. It exits the corresponding PToken from the Vault and redeems it for the underlier. This only works if the PToken has matured - otherwise it will revert.
+Enables burning FIAT and withdrawing the underlier (e.g. USDC) directly after maturity. It exits the corresponding pToken from the Vault and redeems it for the underlier. This only works if the pToken has matured - otherwise it will revert.
 
 ## Collateral Parameters
 
