@@ -13,7 +13,7 @@ Please refer to the [**Changelog**](https://github.com/fiatdao/changelog) repo f
 ### Tokens
 
 **FIAT (Fixed Income Asset Token)**\
-****0x586Aa273F262909EEF8fA02d90Ab65F5015e0516
+0x586Aa273F262909EEF8fA02d90Ab65F5015e0516
 
 ### Protocol
 
@@ -30,7 +30,7 @@ Please refer to the [**Changelog**](https://github.com/fiatdao/changelog) repo f
 0x711faAcb9395c0a47A54D0178D623DA5Aa2dA9a0
 
 **Moneta**\
-****0xEA8Efd605845F4cFAa8Ee6c757390196E1b3f736
+\*\*\*\*0xEA8Efd605845F4cFAa8Ee6c757390196E1b3f736
 
 **Publican**\
 0x3fF548c77A82B377258b5220164E7Ae267eD8978
