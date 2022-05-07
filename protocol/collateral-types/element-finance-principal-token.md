@@ -49,5 +49,5 @@ Enables burning FIAT and withdrawing the underlier (e.g. USDC) directly after ma
 | VaultEPT\_ePyvDAI\_29APR22      | 0xea016f6a5eaac396baa3aa712e8d3f20764cbb1f | \~95.23%          | 1%                       | 250 FIAT   | 3,500,000 FIAT  | 1.05x      | 90 hours                | 250.25 FIAT        |
 | VaultEPT\_ePyvUSDC\_16SEP22     | 0x4465476275E1201F2E5Ab9479E6a51c7875Ce700 | \~95.23%          | 1%                       | 250 FIAT   | 25,000,000 FIAT | 1.05x      | 90 hours                | 250.25 FIAT        |
 | VaultEPT\_ePyvDAI\_16SEP22      | 0xb6922A39C85a4E838e1499A8B7465BDca2E49491 | \~95.23%          | 1%                       | 250 FIAT   | 3,500,000 FIAT  | 1.05x      | 90 hours                | 250.25 FIAT        |
-| VaultEPT\_ePyvLUSD3CRV          | 0xE486a875367875a7Ec1DfE40510B6Ed217849737 | \~95.23%          | 1%                       | 250 FIAT   | 3,500,000 FIAT  | 1.05x      | 90 hours                | 250.25 FIAT        |
+| VaultEPT\_ePyvLUSD3CRV\_16SEP22 | 0xE486a875367875a7Ec1DfE40510B6Ed217849737 | \~95.23%          | 1%                       | 250 FIAT   | 3,500,000 FIAT  | 1.05x      | 90 hours                | 250.25 FIAT        |
 
