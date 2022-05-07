@@ -18,7 +18,7 @@ see [Collateral Vaults](./)
 
 #### Discount Rate
 
-see [Delphi Oracle](../delphi-oracle/oracle/implementations/notional-finance-fcash.md)
+see [Delphi Oracle](../delphi-oracle/oracle-implementations/notional-finance-fcash.md)
 
 ## Convenience Methods / Zaps
 

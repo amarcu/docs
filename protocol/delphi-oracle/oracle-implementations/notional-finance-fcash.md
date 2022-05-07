@@ -2,11 +2,11 @@
 description: Notional Finance Oracle Implementation
 ---
 
-# Notional Finance
+# Notional Finance fCash
 
 ### 🔎 High-level Overview
 
-The Oracle implementation uses [Notional's Interest Rate Oracles](https://docs.notional.finance/notional-v2/fcash-valuation/interest-rate-oracles) to fetch a dampened price that converges to the last traded rate over a window of time. After the price is retrieved we format and convert the rate to a per-second value that is used by the [Relayer](../../relayer.md) to push values to [Collybus](../../../fiat/).
+The Oracle implementation uses [Notional's Interest Rate Oracles](https://docs.notional.finance/notional-v2/fcash-valuation/interest-rate-oracles) to fetch a dampened price that converges to the last traded rate over a window of time. After the price is retrieved we format and convert the rate to a per-second value that is used by the [Relayer](../relayer.md) to push values to [Collybus](../../fiat/).
 
 ### 🐣 Initialization
 
@@ -24,7 +24,7 @@ All of the initial parameters are `immutable` which means once they are set they
 
 ### 🌈 Execution Flow
 
-Each specific oracle implementation must define the `Oracle.getValue()` function. This function is called when the global execution flow is triggered by the [Relayer](../../relayer.md). &#x20;
+Each specific oracle implementation must define the `Oracle.getValue()` function. This function is called when the global execution flow is triggered by the [Relayer](../relayer.md). &#x20;
 
 The oracle rate is retrieved by calling `getMarket(currencyId, maturityDate, settlementDate)` on the Notional contract.&#x20;
 
