@@ -1,18 +1,18 @@
 ---
-description: Notional Finance Oracle Implementation
+description: Notional Finance fCash Oracle Implementation
 ---
 
 # Notional Finance fCash
 
 ### 🔎 High-level Overview
 
-The Oracle implementation uses [Notional's Interest Rate Oracles](https://docs.notional.finance/notional-v2/fcash-valuation/interest-rate-oracles) to fetch a dampened price that converges to the last traded rate over a window of time. After the price is retrieved we format and convert the rate to a per-second value that is used by the [Relayer](../relayer.md) to push values to [Collybus](../../fiat/).
+The Oracle implementation uses [Notional's Interest Rate Oracles](https://docs.notional.finance/notional-v2/fcash-valuation/interest-rate-oracles) to fetch a dampened price that converges to the last traded rate over a window of time. After the price is retrieved we format and convert the rate to a per-second value that is used by the [Relayer](../../relayer.md) to push values to [Collybus](../../../fiat/).
 
 ### 🐣 Initialization
 
 The Oracle uses active markets that are retrieved from the [deployed Notional contract](https://docs.notional.finance/developer-documentation/#deployed-contract-addresses) via a [View interface](https://github.com/notional-finance/contracts-v2/blob/d89be9474e181b322480830501728ea625e853d0/interfaces/notional/NotionalViews.sol).&#x20;
 
-These are the parameters needed to define a `NotionalFianceValueProvider` Oracle:
+These are the parameters needed to define a `NotionalFinanceValueProvider` Oracle:
 
 * `timeUpdateWindow` - the minimum time between updates for the oracle rate
 * `notional` - the address of the Notional deployed oracle
@@ -24,7 +24,7 @@ All of the initial parameters are `immutable` which means once they are set they
 
 ### 🌈 Execution Flow
 
-Each specific oracle implementation must define the `Oracle.getValue()` function. This function is called when the global execution flow is triggered by the [Relayer](../relayer.md). &#x20;
+Each specific oracle implementation must define the `Oracle.getValue()` function. This function is called when the global execution flow is triggered by the [Relayer](../../relayer.md). &#x20;
 
 The oracle rate is retrieved by calling `getMarket(currencyId, maturityDate, settlementDate)` on the Notional contract.&#x20;
 
@@ -62,7 +62,7 @@ Computes and returns the pool settlement date
 
 ### 📘 References
 
-* [Implementation](https://github.com/fiatdao/delphi/blob/26c91838d287a27e494c75a834fbafef303c090d/src/oracle\_implementations/discount\_rate/NotionalFinance/NotionalFinanceValueProvider.sol)
-* [Notional documentation](https://docs.notional.finance/notional-v2/)
-* [Primer on how Notional works](https://blog.notional.finance/how-notional-works/)
+* [Source Code](https://github.com/fiatdao/delphi/blob/26c91838d287a27e494c75a834fbafef303c090d/src/oracle\_implementations/discount\_rate/NotionalFinance/NotionalFinanceValueProvider.sol)
+* [Notional Finance documentation](https://docs.notional.finance/notional-v2/)
+* [Primer on how Notional Finance works](https://blog.notional.finance/how-notional-works/)
 * [Deployed Delphi Oracles](https://github.com/fiatdao/changelog/tree/0693456e1938288734b79a24e9ac3be4a0ef6661/deployment)

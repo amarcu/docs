@@ -49,7 +49,7 @@ Our oracles also have a waiting period that allows a select group of people to r
 
 Vetoing the value can be done by also resetting the oracle value, in addition to pausing the system. This can force the attacker to pay the price of manipulating the markets once again. Again, we consider the price of manipulation high and unfeasible.
 
-Mode details about vetoing the values is found in the [Oracle page](oracle.md).
+Mode details about vetoing the values is found in the [Oracle page](oracle/).
 
 #### 🚿 Data Source
 
