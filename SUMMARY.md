@@ -23,7 +23,6 @@
     * [Yield Protocol fyToken](protocol/delphi-oracle/oracle/implementations/yield-protocol-fytoken.md)
     * [Chainlink Underlier Feed](protocol/delphi-oracle/oracle/implementations/chainlink-underlier-feed.md)
     * [Chainlink + Curve LP Token Feed](protocol/delphi-oracle/oracle/implementations/chainlink-+-curve-lp-token-feed.md)
-* [🪄 Proxy Actions](protocol/proxy-actions.md)
 * [🛡 Launch Guards](protocol/launch-guards.md)
 * [📊 Subgraph](protocol/subgraph.md)
 * [💾 Deployment](protocol/deployment.md)
