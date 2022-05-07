@@ -30,11 +30,10 @@ Refer to [**Changelog**](https://github.com/fiatdao/changelog) to get a complete
 0x711faAcb9395c0a47A54D0178D623DA5Aa2dA9a0
 
 **Moneta**\
-\*\*\*\*0xEA8Efd605845F4cFAa8Ee6c757390196E1b3f736
+0xEA8Efd605845F4cFAa8Ee6c757390196E1b3f736
 
 **Publican**\
 0x3fF548c77A82B377258b5220164E7Ae267eD8978
 
-**Tenebrae**
-
-0xEBF0ccd9745f0687C8E9A7bFBE31E69869e4AB9c
+**Tenebrae**\
+****0xEBF0ccd9745f0687C8E9A7bFBE31E69869e4AB9c
