@@ -7,7 +7,7 @@ description: >-
 # 💾 Deployment
 
 {% hint style="warning" %}
-Please refer to the [**Changelog**](https://github.com/fiatdao/changelog) repo for the canonical address list
+Refer to [**Changelog**](https://github.com/fiatdao/changelog) to get a complete list of all deployed contracts
 {% endhint %}
 
 ### Tokens
@@ -38,21 +38,3 @@ Please refer to the [**Changelog**](https://github.com/fiatdao/changelog) repo f
 **Tenebrae**
 
 0xEBF0ccd9745f0687C8E9A7bFBE31E69869e4AB9c
-
-### Delphi
-
-| Spot         | Provider                                   | Relayer                                    |
-| ------------ | ------------------------------------------ | ------------------------------------------ |
-| **DAI**      | 0xC60a780d62314E2C722d3904EB65ce5bfbDaDBf1 | 0x76DC496b194980bFe45733aF15071cc92740A8Be |
-| **USDC**     | 0x8ebFb8d1d6f21197a9C64328BE1b4Df52CD88F95 | 0x9BeE1A78599915aeD57e637b9cB1DC4b4148fee6 |
-| **LUSD3CRV** | 0xdC7509B74A397ad4B2405DA877442d901D535037 | 0x0fd3bA76708C3B62C59882629405cF79B214079D |
-
-### **Vaults**
-
-#### **Element Finance**
-
-| Vault            | Maturity        | Contract                                   |
-| ---------------- | --------------- | ------------------------------------------ |
-| **ePyvUSDC**     | April 29th 2022 | 0xd9080BAC070cf47CBDb7223D2440cF8E978e6b45 |
-| **ePyvDAI**      | April 29th 2022 | 0xEA016f6a5eaAc396BAA3aA712E8d3f20764cbb1f |
-| **ePyvLUSD3CRV** | April 29th 2022 | 0x222dEE6192f946040f97aAdb386FAfa4e6310Cdc |
