@@ -20,4 +20,4 @@ List of Spot Oracles:
 
 ### 📘 References
 
-* [Deployed Delphi Oracles.](https://github.com/fiatdao/changelog/tree/0693456e1938288734b79a24e9ac3be4a0ef6661/deployment)
+* [Deployed Delphi Oracles](https://github.com/fiatdao/changelog/tree/0693456e1938288734b79a24e9ac3be4a0ef6661/deployment)

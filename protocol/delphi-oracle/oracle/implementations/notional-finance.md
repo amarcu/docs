@@ -62,7 +62,7 @@ Computes and returns the pool settlement date
 
 ### 📘 References
 
-* [Implementation](https://github.com/fiatdao/delphi/blob/26c91838d287a27e494c75a834fbafef303c090d/src/oracle\_implementations/discount\_rate/NotionalFinance/NotionalFinanceValueProvider.sol).
-* [Notional documentation](https://docs.notional.finance/notional-v2/).
-* [Primer on how Notional works](https://blog.notional.finance/how-notional-works/).
-* [Deployed Delphi Oracles.](https://github.com/fiatdao/changelog/tree/0693456e1938288734b79a24e9ac3be4a0ef6661/deployment)
+* [Implementation](https://github.com/fiatdao/delphi/blob/26c91838d287a27e494c75a834fbafef303c090d/src/oracle\_implementations/discount\_rate/NotionalFinance/NotionalFinanceValueProvider.sol)
+* [Notional documentation](https://docs.notional.finance/notional-v2/)
+* [Primer on how Notional works](https://blog.notional.finance/how-notional-works/)
+* [Deployed Delphi Oracles](https://github.com/fiatdao/changelog/tree/0693456e1938288734b79a24e9ac3be4a0ef6661/deployment)

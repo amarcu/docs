@@ -64,6 +64,6 @@ Computes and returns the discount rate.
 
 ### 📘 References
 
-* [Implementation](https://github.com/fiatdao/delphi/blob/26c91838d287a27e494c75a834fbafef303c090d/src/oracle\_implementations/discount\_rate/Yield/YieldValueProvider.sol).
-* [Yield Protocol documentation](https://docs.yieldprotocol.com/#/).
-* [Deployed Delphi Oracles](https://github.com/fiatdao/changelog/tree/0693456e1938288734b79a24e9ac3be4a0ef6661/deployment).
+* [Implementation](https://github.com/fiatdao/delphi/blob/26c91838d287a27e494c75a834fbafef303c090d/src/oracle\_implementations/discount\_rate/Yield/YieldValueProvider.sol)
+* [Yield Protocol documentation](https://docs.yieldprotocol.com/#/)
+* [Deployed Delphi Oracles](https://github.com/fiatdao/changelog/tree/0693456e1938288734b79a24e9ac3be4a0ef6661/deployment)
