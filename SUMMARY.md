@@ -15,6 +15,7 @@
 * [🏺 Collateral Vaults](protocol/collateral-vaults.md)
 * [💰 Collateral Types](protocol/collateral-types/README.md)
   * [Element Finance Principal Token](protocol/collateral-types/element-finance-principal-token.md)
+  * [Notional Finance fCash](protocol/collateral-types/notional-finance-fcash.md)
 * [🔮 Delphi Oracle](protocol/delphi-oracle/README.md)
   * [🗣 Relayer](protocol/delphi-oracle/relayer.md)
   * [🛰 Oracle](protocol/delphi-oracle/oracle/README.md)
