@@ -12,7 +12,7 @@ Our oracle system is highly dependent on the correctness of on-chain data and tr
 
 FIAT DAO lets people deposit assets as collateral in personal vaults, which, in effect, allow them to mint a stable coin based on the deposited value. The protocol needs to access price feeds for all supported collateral assets.
 
-For instance, to support an [ElementFi](https://www.element.fi) asset based on [USDC](https://www.circle.com/en/usdc), we need to be able to price Element's principal token correctly. Supporting an ElementFi asset is achieved by tracking the principal token's value and the value of the underlying USDC token. Tracking the value of the principal token is done with a static relayer based on the remaining maturity date, while the price of USDC is tracked with a Chainlink spot price relayer. Each of these will be explained in detail.
+For instance, to support [Element Finance Principal Tokens](../collateral-types/element-finance-principal-token.md) based on [USDC](https://www.circle.com/en/usdc), we need to be able to price Principal Token correctly. This is achieved by tracking the Principal Token's value and the value of the underlying USDC token. Tracking the value of the Principal Token is done with a static relayer based on the remaining maturity date, while the price of USDC is tracked with a Chainlink spot price relayer. Each of these will be explained in detail.
 
 ### 🎨 Oracle Design
 
