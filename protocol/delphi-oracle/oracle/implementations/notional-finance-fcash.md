@@ -6,7 +6,7 @@ description: Notional Finance fCash Oracle Implementation
 
 ### 🔎 High-level Overview
 
-The Oracle implementation uses [Notional's Interest Rate Oracles](https://docs.notional.finance/notional-v2/fcash-valuation/interest-rate-oracles) to fetch a dampened price that converges to the last traded rate over a window of time. After the price is retrieved we format and convert the rate to a per-second value that is used by the [Relayer](../../relayer.md) to push values to [Collybus](../../../fiat/).
+The Oracle implementation uses [Notional's Interest Rate Oracles](https://docs.notional.finance/notional-v2/fcash-valuation/interest-rate-oracles) to fetch a dampened price that converges to the last traded rate over a window of time. After the price is retrieved, we format and convert the rate to a per-second value that is used by the [Relayer](../../relayer.md) to push values to [Collybus](../../../fiat/).
 
 ### 🐣 Initialization
 
