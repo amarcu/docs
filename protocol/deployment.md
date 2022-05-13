@@ -13,7 +13,11 @@ Refer to [**Changelog**](https://github.com/fiatdao/changelog) to get a complete
 ### Tokens
 
 **FIAT (Fixed Income Asset Token)**\
-0x586Aa273F262909EEF8fA02d90Ab65F5015e0516
+[0x586Aa273F262909EEF8fA02d90Ab65F5015e0516](https://etherscan.io/token/0x586Aa273F262909EEF8fA02d90Ab65F5015e0516)
+
+**FDT (FIAT DAO Token)**
+
+[0xEd1480d12bE41d92F36f5f7bDd88212E381A3677](https://etherscan.io/token/0xed1480d12be41d92f36f5f7bdd88212e381a3677)
 
 ### Protocol
 
@@ -37,3 +41,26 @@ Refer to [**Changelog**](https://github.com/fiatdao/changelog) to get a complete
 
 **Tenebrae**\
 ****0xEBF0ccd9745f0687C8E9A7bFBE31E69869e4AB9c
+
+### **Collateral Actions**
+
+**Element Finance**
+
+0x0021DCEeb93130059C2BbBa7DacF14fe34aFF23c
+
+### Oracle
+
+**ePyvUSDC Rate Relayer**
+
+0x68e21390E57612170f2a62Eb96aCd8579230c62c
+
+**ePyvDAI Rate Relayer**
+
+0x6A2d1e930dC5C5e94d57272D1836EFe2B1556194
+
+**ePyvLUSD3CRV Rate Relayer**
+
+0x23aFF69F2d20Ef0E82Bf61B4019566Fb4ec65A4E
+
+
+
