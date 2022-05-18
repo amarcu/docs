@@ -48,6 +48,10 @@ Refer to [**Changelog**](https://github.com/fiatdao/changelog) to get a complete
 
 0x0021DCEeb93130059C2BbBa7DacF14fe34aFF23c
 
+**Notional Finance**
+
+0x1FB174926b8EFA04D33A2Ef26681040285bC85E3
+
 ### Oracle
 
 **ePyvUSDC Rate Relayer**
