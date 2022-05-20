@@ -8,7 +8,7 @@ description: FIAT DAO source of truth
 
 FIAT DAO needs a system that gathers information about the integrated assets in our protocol. These assets need to be correctly priced to keep the $FIAT token value close to the desired peg.
 
-Our oracle system is highly dependent on the correctness of on-chain data and trusted oracle systems (such as [Chainlink](https://chain.link)) for correct execution and data flow.
+Our oracle system is highly dependent on the correctness of on-chain data and trusted oracle systems (such as [Chainlink](https://chain.link/)) for correct execution and data flow.
 
 FIAT DAO lets people deposit assets as collateral in personal vaults, which, in effect, allow them to mint a stable coin based on the deposited value. The protocol needs to access price feeds for all supported collateral assets.
 
@@ -18,13 +18,13 @@ For instance, to support [Element Finance Principal Tokens](../collateral-vaults
 
 The Delphi Oracle System has the following high-level overview schema.
 
-![Delphi high-level execution flow](<../../.gitbook/assets/Collybus Diagram.png>)
-
 Each component is detailed in its respective section; this provides an overview of the execution flow and architecture.
 
 The execution flow starts with a [cron](https://en.wikipedia.org/wiki/Cron)-like system that tries to update the oracle values by calling the [Relayer](relayer.md). If the relayer considers the values should be updated and pushed into Collybus, a transaction is sent to the blockchain, performing the needed updates.
 
 Collybus will price the supported assets differently based on Delphi's pushed values.
+
+![](../../.gitbook/assets/delphi.png)
 
 ### 👒 Security and Risks
 

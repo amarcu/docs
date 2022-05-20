@@ -26,7 +26,7 @@ All of the initial parameters are `immutable` (they can't change) except for `mi
 
 ![](<../../.gitbook/assets/Collybus Diagram.png>)
 
-The execution starts with a [Gelato Network](https://www.gelato.network) task trying to execute [Relayer.executeWithRevert()](https://github.com/fiatdao/delphi/blob/67d77e1a46995456ada05c25d1eade9029ba068e/src/relayer/Relayer.sol#L107-L114) successfully at each block. Most of the time, the execution will revert because the value reported by the oracle does not differ enough (by at least `minimumPercentageDeltaValue` ).&#x20;
+The execution starts with a [Gelato Network](https://www.gelato.network/) task trying to execute [Relayer.executeWithRevert()](https://github.com/fiatdao/delphi/blob/67d77e1a46995456ada05c25d1eade9029ba068e/src/relayer/Relayer.sol#L107-L114) successfully at each block. Most of the time, the execution will revert because the value reported by the oracle does not differ enough (by at least `minimumPercentageDeltaValue` ).&#x20;
 
 The execution must revert if it should not commit any change in the system. Reverting is important to integrate with Gelato correctly. The type of task we use tries to trigger a successful execution at each block. Their private relayers simulate the execution, and a transaction is not sent to the chain if the execution reverts. However, if the execution does not revert, a transaction is relayed through their private relayer system, and the Relayer pushes a new value into Collybus.
 

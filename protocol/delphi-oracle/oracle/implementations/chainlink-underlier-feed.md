@@ -52,5 +52,5 @@ Retrieves and returns the description of the Chainlink Data Feed.
 
 * [Implementation](https://github.com/fiatdao/delphi/blob/26c91838d287a27e494c75a834fbafef303c090d/src/oracle\_implementations/spot\_price/Chainlink/ChainlinkValueProvider.sol)
 * [Deployed Delphi Oracles](https://github.com/fiatdao/changelog/tree/0693456e1938288734b79a24e9ac3be4a0ef6661/deployment)
-* [Chainlink docs](https://docs.chain.link)
+* [Chainlink docs](https://docs.chain.link/)
 * [Deployed Chainlink Data Feeds](https://docs.chain.link/docs/ethereum-addresses/)
