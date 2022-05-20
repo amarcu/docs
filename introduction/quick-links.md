@@ -2,7 +2,7 @@
 description: Relevant pages for builders and users alike.
 ---
 
-# 🛴 Quick Links
+# 🔗 Quick Links
 
 {% hint style="info" %}
 Check out our [**Linktree**](https://linktr.ee/fiatdao) for the most up-to-date links
@@ -32,6 +32,7 @@ Check out our [**Linktree**](https://linktr.ee/fiatdao) for the most up-to-date 
 **FDT**
 
 * **CoinGecko:** [https://www.coingecko.com/en/coins/fiat-dao-token](https://www.coingecko.com/en/coins/fiat-dao-token)
+* **CoinMarketCap:** [https://coinmarketcap.com/currencies/fiat-dao/](https://coinmarketcap.com/currencies/fiat-dao/)
 * **Balancer Pool:** [https://app.balancer.fi/#/pool/0x2d344a84bac123660b021eebe4eb6f12ba25fe8600020000000000000000018a](https://app.balancer.fi/#/pool/0x2d344a84bac123660b021eebe4eb6f12ba25fe8600020000000000000000018a)
 * **Hidden Hand:** [https://hiddenhand.finance/balancer](https://hiddenhand.finance/balancer)
 * **APY Vision:** [https://app.apy.vision/pools/balancerv2\_eth-FDT-WETH-0x2d344a84bac123660b021eebe4eb6f12ba25fe86](https://app.apy.vision/pools/balancerv2\_eth-FDT-WETH-0x2d344a84bac123660b021eebe4eb6f12ba25fe86)
