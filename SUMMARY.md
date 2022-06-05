@@ -9,7 +9,7 @@
 
 * [🌅 FIAT v1](protocol/fiat/README.md)
   * [Position Management](protocol/fiat/position-management.md)
-  * [Collateral Auctions](protocol/fiat/collateral-auctions.md)
+  * [Liquidations](protocol/fiat/collateral-auctions.md)
   * [Borrow Rates](protocol/fiat/borrow-rates.md)
   * [Surplus and Debt](protocol/fiat/surplus-and-debt.md)
 * [🏺 Collateral Vaults](protocol/collateral-vaults/README.md)
