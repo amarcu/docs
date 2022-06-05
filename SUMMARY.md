@@ -12,7 +12,6 @@
   * [Collateral Auctions](protocol/fiat/collateral-auctions.md)
   * [Borrow Rates](protocol/fiat/borrow-rates.md)
   * [Surplus and Debt](protocol/fiat/surplus-and-debt.md)
-  * [Emergency Shutdown](protocol/fiat/emergency-shutdown.md)
 * [🏺 Collateral Vaults](protocol/collateral-vaults/README.md)
   * [Element Finance pToken](protocol/collateral-vaults/element-finance-principal-token.md)
   * [Notional Finance fCash](protocol/collateral-vaults/notional-finance-fcash.md)
