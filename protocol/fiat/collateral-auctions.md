@@ -14,5 +14,5 @@ Confiscated collateral is auctioned off via a dutch auction which over time foll
 
 The primary type of collateral backing FIAT are fixed rate assets which can suffer from insufficiently liquid markets when attempting to directly sell them for a more liquid asset. For some of the collateral types such as Element Finance pTokens or Notional Finance fCash there are native markets for which liquidators can lock in an atomic profit as they would do when participating in liquidations on common lending apps like Aave and Compound.&#x20;
 
-Buyers of liquidated collateral have to make the decision to either hold the yield bearing asset until maturity to then redeem it for its liquid underlying or to factor in higher price impact which they might encounter on the secondary market.
+Buyers of liquidated collateral have to make the decision to either hold the yield bearing asset until maturity to then redeem it for its liquid underlying or to factor in price impact which they might encounter when selling it directly on the secondary market.
 
