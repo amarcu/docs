@@ -7,7 +7,7 @@
 
 ## Protocol
 
-* [🌅 FIAT](protocol/fiat/README.md)
+* [🌅 FIAT v1](protocol/fiat/README.md)
   * [Position Management](protocol/fiat/position-management.md)
   * [Collateral Auctions](protocol/fiat/collateral-auctions.md)
   * [Borrow Rates](protocol/fiat/borrow-rates.md)
