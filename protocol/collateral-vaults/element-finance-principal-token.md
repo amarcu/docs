@@ -35,8 +35,6 @@ $$
 rate = (1.1^{\frac{1}{365*86400}}-1) * 10^{18} = 3022265993
 $$
 
-This is due to Element Finance's YieldSpace implementation lacking a price oracle.
-
 ## Convenience Methods / Zaps
 
 The following methods wrap multiple actions into a single transaction for proxy users.
