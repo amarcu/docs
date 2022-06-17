@@ -41,5 +41,3 @@ Refer to [**Changelog**](https://github.com/fiatdao/changelog) to get a complete
 
 **Tenebrae**\
 ****0xEBF0ccd9745f0687C8E9A7bFBE31E69869e4AB9c
-
-0x23aFF69F2d20Ef0E82Bf61B4019566Fb4ec65A4E
