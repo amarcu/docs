@@ -4,6 +4,7 @@
 
 * [🚀 Getting Started](README.md)
 * [🔗 Quick Links](introduction/quick-links.md)
+* [✋ FAQs](introduction/faqs.md)
 
 ## Protocol
 
@@ -19,11 +20,11 @@
 * [🔮 Delphi Oracle](protocol/delphi-oracle/README.md)
   * [Relayer](protocol/delphi-oracle/relayer.md)
   * [Oracle](protocol/delphi-oracle/oracle/README.md)
-  * [Oracle Implementations](protocol/delphi-oracle/oracle/implementations/README.md)
-    * [Notional Finance fCash](protocol/delphi-oracle/oracle/implementations/notional-finance-fcash.md)
-    * [Yield Protocol fyToken](protocol/delphi-oracle/oracle/implementations/yield-protocol-fytoken.md)
-    * [Chainlink Underlier Feed](protocol/delphi-oracle/oracle/implementations/chainlink-underlier-feed.md)
-    * [Chainlink + Curve LP Token Feed](protocol/delphi-oracle/oracle/implementations/chainlink-+-curve-lp-token-feed.md)
+  * [Implementations](protocol/delphi-oracle/implementations/README.md)
+    * [Notional Finance fCash](protocol/delphi-oracle/implementations/notional-finance-fcash.md)
+    * [Yield Protocol fyToken](protocol/delphi-oracle/implementations/yield-protocol-fytoken.md)
+    * [Chainlink Underlier Feed](protocol/delphi-oracle/implementations/chainlink-underlier-feed.md)
+    * [Chainlink + Curve LP Token Feed](protocol/delphi-oracle/implementations/chainlink-+-curve-lp-token-feed.md)
 * [📊 Subgraph](protocol/subgraph.md)
 * [💾 Deployment](protocol/deployment.md)
 
@@ -32,6 +33,12 @@
 * [🏛 Voting](governance/voting.md)
 * [📊 Subgraph](governance/subgraph.md)
 * [💾 Deployment](governance/deployment.md)
+
+## Guides
+
+* [📨 Propose New Collateral](guides/propose-new-collateral.md)
+* [🗼 Releverage Fixed Rates](guides/releverage-fixed-rates.md)
+* [🤹♀ Vote in Governance](guides/vote-in-governance.md)
 
 ## Programs
 

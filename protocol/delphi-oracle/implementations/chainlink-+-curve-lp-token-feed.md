@@ -10,7 +10,7 @@ The implementation for the Oracle is done according to the Curve - Chainlink Ora
 
 In order to compute the price, we need the Chainlink Data Feeds for each LP token. For example, in order to price the pool in USD, we need the price feeds for each token within the pool in USD, which in this case would be DAI/USD, USDT/USD, and USDC/USD. We also need the addresses of the Curve 3 Pool, the address of the Curve 3 LP Token, and the Curve LUSD Pool.
 
-The resulting spot price is converted to a per-second rate that is used by the [Relayer](../../relayer.md) to push values to [Collybus](../../../fiat/).
+The resulting spot price is converted to a per-second rate that is used by the [Relayer](../relayer.md) to push values to [Collybus](../../fiat/).
 
 List of Curve Pool Oracles:
 
@@ -31,7 +31,7 @@ All of the initial parameters are `immutable` which means once they are set they
 
 ### 🌈 Execution Flow
 
-Each specific oracle implementation must define the `Oracle.getValue()` function. This function is called when the global execution flow is triggered by the [Relayer](../../relayer.md). &#x20;
+Each specific oracle implementation must define the `Oracle.getValue()` function. This function is called when the global execution flow is triggered by the [Relayer](../relayer.md). &#x20;
 
 In order to compute the price we follow a few steps:
 

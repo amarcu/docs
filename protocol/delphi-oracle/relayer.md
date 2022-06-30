@@ -2,7 +2,7 @@
 description: Pushes the data obtained from Oracles into Collybus
 ---
 
-# 🗣 Relayer
+# Relayer
 
 ### 🔎 High-level Overview
 
