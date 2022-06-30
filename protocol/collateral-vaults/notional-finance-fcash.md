@@ -26,7 +26,7 @@ For each supported tenor (e.g. 3 months, 6 months, 12 months) of an fCash asset 
 fCash is priced using [Notional's Interest Rate Oracles](https://docs.notional.finance/notional-v2/fcash-valuation/interest-rate-oracles) to fetch a dampened price that converges to the last traded rate over a window of time. After the price is retrieved, we format and convert the rate to a per-second value that is used by the [Relayer](../delphi-oracle/relayer.md) to push values to [Collybus](../fiat/).
 
 * **Fair Price:** See [Collateral Vaults](./)
-* **Discount Rate:** See [Delphi Oracle](../delphi-oracle/implementations/notional-finance-fcash.md)
+* **Discount Rate:** See [Delphi Oracle](../delphi-oracle/oracle/implementations/notional-finance-fcash.md)
 
 ## Convenience Methods / Zaps
 

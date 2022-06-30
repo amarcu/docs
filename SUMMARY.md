@@ -4,7 +4,12 @@
 
 * [🚀 Getting Started](README.md)
 * [🔗 Quick Links](introduction/quick-links.md)
-* [✋ FAQs](introduction/faqs.md)
+* [✋ FAQs](introduction/faqs/README.md)
+  * [Fixed Income FAQ](introduction/faqs/fixed-income-faq.md)
+  * [FIAT FAQ](introduction/faqs/fiat-faq.md)
+  * [FDT FAQ](introduction/faqs/fdt-faq.md)
+  * [Protocol FAQ](introduction/faqs/protocol-faq.md)
+  * [App FAQ](introduction/faqs/app-faq.md)
 
 ## Protocol
 
@@ -20,11 +25,11 @@
 * [🔮 Delphi Oracle](protocol/delphi-oracle/README.md)
   * [Relayer](protocol/delphi-oracle/relayer.md)
   * [Oracle](protocol/delphi-oracle/oracle/README.md)
-  * [Implementations](protocol/delphi-oracle/implementations/README.md)
-    * [Notional Finance fCash](protocol/delphi-oracle/implementations/notional-finance-fcash.md)
-    * [Yield Protocol fyToken](protocol/delphi-oracle/implementations/yield-protocol-fytoken.md)
-    * [Chainlink Underlier Feed](protocol/delphi-oracle/implementations/chainlink-underlier-feed.md)
-    * [Chainlink + Curve LP Token Feed](protocol/delphi-oracle/implementations/chainlink-+-curve-lp-token-feed.md)
+  * [Implementations](protocol/delphi-oracle/oracle/implementations/README.md)
+    * [Notional Finance fCash](protocol/delphi-oracle/oracle/implementations/notional-finance-fcash.md)
+    * [Yield Protocol fyToken](protocol/delphi-oracle/oracle/implementations/yield-protocol-fytoken.md)
+    * [Chainlink Underlier Feed](protocol/delphi-oracle/oracle/implementations/chainlink-underlier-feed.md)
+    * [Chainlink + Curve LP Token Feed](protocol/delphi-oracle/oracle/implementations/chainlink-+-curve-lp-token-feed.md)
 * [📊 Subgraph](protocol/subgraph.md)
 * [💾 Deployment](protocol/deployment.md)
 
