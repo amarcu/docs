@@ -1,9 +1,15 @@
-# 🌅 FIAT
+---
+description: Understanding the FIAT protocol
+---
 
-FIAT allows users to mint a stable-value token called $FIAT against fixed income assets originated on various DeFi platforms in order to facilitate use cases like yield releveraging and arbitrage. By providing users with a collateralized credit facility, FIAT reduces the opportunity cost of underwriting DeFi debt positions and aggregates secondary liquidity for such assets.
+# 🌅 FIAT v1
 
-The FIAT system is designed such that the total $FIAT debt outstanding is fully backed by deposited collateral value akin to a full-reserve currency system. Furthermore, the system maintains an internal 1 USD $FIAT price target. It implements a number of mechanisms which calibrate the supply and demand for $FIAT in order for these targets to be maintained.
+## What is FIAT?
 
+The FIAT protocol allows users to mint a single ERC-20 token, $FIAT, against a universe of accepted fixed income asset collateral. By providing users with fungible liquidity for the duration of their fixed term deposits in other protocol, FIAT reduces the opportunity cost of underwriting DeFi debt and aggregates secondary liquidity around a singular focal point.
 
+## How is FIAT Implemented?
+
+The first iteration of the FIAT protocol is based on a collateralized debt position design. Users are able to mint $FIAT against their collateralized positions at some discount rate to the underlying such that the total $FIAT debt outstanding is fully backed by deposited collateral value. Furthermore, the system maintains an internal $1 price target for $FIAT such that arbitrage opportunities for either minting or burning the token arise when there is an imbalance between the circulating supply and market demand for it.
 
 ![](<../../.gitbook/assets/CORE diagram updated.png>)
