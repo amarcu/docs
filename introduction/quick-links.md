@@ -20,28 +20,26 @@ Check out our [**Linktree**](https://linktr.ee/fiatdao) for the most up-to-date 
 
 * **Element Finance:** [https://element.fi](https://element.fi)
 * **Notional Finance:** [https://notional.finance](https://notional.finance)
-* **Yield Protocol:** [https://yieldprotocol.com/](https://yieldprotocol.com/)
 
 ## Tokens
 
 **FIAT**
 
 * **CoinGecko:** [https://www.coingecko.com/en/coins/fixed-income-asset-token](https://www.coingecko.com/en/coins/fixed-income-asset-token)
-* **Balancer Pool:** [https://app.balancer.fi/#/pool/0x178e029173417b1f9c8bc16dcec6f697bc32374600000000000000000000025d](https://app.balancer.fi/#/pool/0x178e029173417b1f9c8bc16dcec6f697bc32374600000000000000000000025d)
 * **Curve Pool:** [https://curve.fi/factory/107](https://curve.fi/factory/107)
+* **Rari Fuse Pool:** [https://app.rari.capital/fuse/pool/130](https://app.rari.capital/fuse/pool/130)
 
 **FDT**
 
 * **CoinGecko:** [https://www.coingecko.com/en/coins/fiat-dao-token](https://www.coingecko.com/en/coins/fiat-dao-token)
+* **CoinMarketCap:** [https://coinmarketcap.com/currencies/fiat-dao/](https://coinmarketcap.com/currencies/fiat-dao/)
 * **Balancer Pool:** [https://app.balancer.fi/#/pool/0x2d344a84bac123660b021eebe4eb6f12ba25fe8600020000000000000000018a](https://app.balancer.fi/#/pool/0x2d344a84bac123660b021eebe4eb6f12ba25fe8600020000000000000000018a)
-
-{% hint style="info" %}
-The Balancer pools for FDT and FIAT are both eligible for bribes on [Hidden Hand](https://hiddenhand.finance)
-{% endhint %}
+* **Hidden Hand:** [https://hiddenhand.finance/balancer](https://hiddenhand.finance/balancer)
+* **APY Vision:** [https://app.apy.vision/pools/balancerv2\_eth-FDT-WETH-0x2d344a84bac123660b021eebe4eb6f12ba25fe86](https://app.apy.vision/pools/balancerv2\_eth-FDT-WETH-0x2d344a84bac123660b021eebe4eb6f12ba25fe86)
 
 ## Community
 
-**Core Communications**
+**Communications**
 
 * **Twitter:** [https://twitter.com/fiatdao](https://twitter.com/fiatdao)
 * **Medium:** [https://medium.com/fiat-dao](https://medium.com/fiat-dao)

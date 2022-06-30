@@ -2,7 +2,7 @@
 description: Obtains the on-chain data and it's ready to report it
 ---
 
-# Oracle
+# 🛰 Oracle
 
 ### 🔎 High-level Overview
 
