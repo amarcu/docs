@@ -16,7 +16,7 @@ Each approved Vault in Codex is able to call `modifyBalance` which records depos
 
 #### Adjusting a Position's collateral-to-debt ratio
 
-`ModifyCollateralAndDebt(vault, tokenId, user, collateralizer, creditor, deltaCollateral, deltaNormalDebt)` allows for adjusting `collateral` and `normalDebt` of a Position. Whereby `user` is the owner of the Position, `collateralizer` is the account from which collateral is transferred to or from the Position, `creditor` account from which `credit`is transferred to or from the Position, depending on if the `deltaCollateral` and `deltaNormalDebt` amounts are positive or negative.
+[`modifyCollateralAndDebt`](https://github.com/fiatdao/fiat/blob/main/src/Codex.sol#L297) allows for adjusting `collateral` and `normalDebt` of a Position. Whereby `user` is the owner of the Position, `collateralizer` is the account from which collateral is transferred to or from the Position, `creditor` account from which `credit`is transferred to or from the Position, depending on if the `deltaCollateral` and `deltaNormalDebt` amounts are positive or negative.
 
 #### Depositing and Withdrawing $FIAT in and out of FIAT
 
