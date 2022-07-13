@@ -2,7 +2,7 @@
 description: Oracle Implementations
 ---
 
-# 🧱 Oracle Implementations
+# Implementations
 
 ### 🔎 High-level Overview
 

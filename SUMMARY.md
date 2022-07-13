@@ -42,6 +42,7 @@
 ## Guides
 
 * [📨 Propose New Collateral](guides/propose-new-collateral.md)
+* [🇨🇭 Provide Neutral Liquidity](guides/provide-neutral-liquidity.md)
 * [🗼 Releverage Fixed Rates](guides/releverage-fixed-rates.md)
 * [🤹♀ Vote in Governance](guides/vote-in-governance.md)
 
