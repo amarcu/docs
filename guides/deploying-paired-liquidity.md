@@ -1,10 +1,10 @@
 ---
 description: >-
-  How to earn yields and subsidies for providing neutral secondary $FIAT
+  How to earn yields and subsidies for providing market neutral secondary $FIAT
   liquidity
 ---
 
-# 🇨🇭 Provide Neutral Liquidity
+# 🇨🇭 Deploying Paired Liquidity
 
 ## Guide Intro
 
@@ -41,7 +41,7 @@ Stablecoin-denominated positions can be liquidated due to depegs or interest acc
 ### Step 2. Pair $FIAT
 
 * Navigate to the "FUD" (FIAT-USDC-DAI) pool on [Balancer Finance](https://app.balancer.fi/#/pool/0x178e029173417b1f9c8bc16dcec6f697bc32374600000000000000000000025d)
-* Deposit your $FIAT alongside equal amounts of $DAI and $USDC
+* Deposit your $FIAT alongside equal amounts of $DAI or $USDC
 
 {% hint style="info" %}
 It is possible to deposit any combination of the three assets.
@@ -128,14 +128,29 @@ An example end position could look as follows:
 
 In the interim period, the user could have minted further $FIAT as the discount rate decreased closer to collateral maturity.&#x20;
 
-{% hint style="danger" %}
-Should $FIAT undergo a prolonged depeg event, the user may be unable to recover their entire $USDC deposited into the Balancer pool. At the same time, the cost to repay the user's $FIAT debt will have declined.\
-\
-**This is effectively a bank run scenario on the Balancer pool in which, while the user has a short position on $FIAT, they would still want to be the first to withdraw.**&#x20;
-{% endhint %}
+### $FIAT Depeg Considerations
+
+The term "stablecoin" can refer to any number of mechanisms of varying robustness used to peg an asset at a specific value. $FIAT is built on top of the collateral debt position model pioneered by MakerDAO and its $DAI token. This is a far cry from robust designs, namely the "algorithmic" approach taken by the failed Terra Luna project. ****&#x20;
+
+The following table highlights how much USDC you would need to be able to withdraw from the Balancer pool in the case of a given depeg in order to **i) reclaim your collateral**, and **ii) recover your entire principal** before yields or subsidies are considered, utilizing the example position figures.
+
+| Secondary Price of $FIAT | Cost of Debt Repayment | Breakeven USDC Withdrawal Amount |
+| ------------------------ | :--------------------: | :------------------------------: |
+| $0.95                    |        $4,509.65       |           9,269.65 USDC          |
+| $0.90                    |        $4,272.30       |           9,032.30 USDC          |
+| $0.85                    |        $4,034.95       |           8,794.95 USDC          |
+| $0.75                    |        $3,560.25       |           8,320.25 USDC          |
+| $0.50                    |        $2,373.50       |           7,133.50 USDC          |
+
+It is important to note that the reasons for such deviations can vary, and the severity of their underlying cause can mean the difference between a temporary dislocation and a permanent discount.
+
+* **Temporary dislocations** are caused by there being an excess of $FIAT in the market relative to demand. In such cases, users with $FIAT debt have an incentive to buy cheap $FIAT to pay down their positions, eventually restoring equilibrium.
+* **Permanent discounts** are caused by unmitigated devaluations of the collateral backing circulating $FIAT, to the point where users have no incentive to pay back their debts for worthless collateral. Bad debt can be mitigated via the sale of $FDT governance tokens or compelling yield opportunities for $FIAT holders, and so such scenarios must be assessed on a case by case basis.
+
+All of this is to say that there is risk in providing liquidity against $FIAT, but in most scenarios, this risk is a temporal one rather than an outright bankrun scenario on the Balancer liquidity pool. Users who are able to arbitrage temporary dislocations can even profit from such scenarios, as their take home yield winds up being higher due to the cheaper cost of $FIAT debt repayment.
 
 ### Closing Comments
 
 By executing this strategy, the user contributes to the overall secondary liquidity for $FIAT in return for lending yields, trading fees, and protocol subsidies. In pairing minted $FIAT against their own $USDC or $DAI liquidity, they are able to profit from volatility that may result from excess amounts of $FIAT in the Balancer pool, as such events allow for cheap repayment of their minted debt.&#x20;
 
-Importantly, the presence of such neutral liquidity allows for less risk-averse users to execute releveraging strategies with a smaller impact on the secondary price of $FIAT.
+Importantly, the presence of such paired liquidity allows for less risk-averse users to execute releveraging strategies with a smaller impact on the secondary price of $FIAT.
