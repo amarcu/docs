@@ -132,7 +132,11 @@ In the interim period, the user could have minted further $FIAT as the discount 
 
 The term "stablecoin" can refer to any number of mechanisms of varying robustness used to peg an asset at a specific value. $FIAT is built on top of the collateral debt position model pioneered by MakerDAO and its $DAI token. This is a far cry from robust designs, namely the "algorithmic" approach taken by the failed Terra Luna project. ****&#x20;
 
-The following table highlights how much USDC you would need to be able to withdraw from the Balancer pool in the case of a given depeg in order to **i) reclaim your collateral**, and **ii) recover your entire principal** before yields or subsidies are considered, utilizing the example position figures.
+The following table highlights how much USDC you would need to be able to withdraw from the Balancer pool in the case of a given depeg in order to **i) reclaim your collateral**, and **ii) recover your entire principal** before yields or subsidies are considered, utilizing the example position figures.&#x20;
+
+* **5,240 $fUSDC collateral**
+* **4,747 $FIAT debt after one year**
+* **$9,700 original Balancer deposit value**
 
 | Secondary Price of $FIAT | Cost of Debt Repayment | Breakeven USDC Withdrawal Amount |
 | ------------------------ | :--------------------: | :------------------------------: |
