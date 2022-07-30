@@ -20,7 +20,7 @@ The Delphi Oracle System has the following high-level overview schema.
 
 Each component is detailed in its respective section; this provides an overview of the execution flow and architecture.
 
-The execution flow starts with a [cron](https://en.wikipedia.org/wiki/Cron)-like system that tries to update the oracle values by calling the [Relayer](relayer.md). If the relayer considers the values should be updated and pushed into Collybus, a transaction is sent to the blockchain, performing the needed updates.
+The execution flow starts with a [cron](https://en.wikipedia.org/wiki/Cron)-like system that tries to update the oracle values by calling the [Relayer](v1/relayer.md). If the relayer considers the values should be updated and pushed into Collybus, a transaction is sent to the blockchain, performing the needed updates.
 
 Collybus will price the supported assets differently based on Delphi's pushed values.
 
@@ -49,7 +49,7 @@ Our oracles also have a waiting period that allows a select group of people to r
 
 Vetoing the value can be done by also resetting the oracle value, in addition to pausing the system. This can force the attacker to pay the price of manipulating the markets once again. Again, we consider the price of manipulation high and unfeasible.
 
-Mode details about vetoing the values is found in the [Oracle page](oracle/).
+Mode details about vetoing the values is found in the [Oracle page](v1/oracle.md).
 
 #### 🚿 Data Source
 

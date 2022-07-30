@@ -32,7 +32,7 @@ Having this delay allows approved actors to veto the value, in case the oracle o
 
 #### Value
 
-Once at least one successful update was performed, the value can be retrieved. This is usually queried by the [Relayer](../relayer.md) and pushed into Collybus.&#x20;
+Once at least one successful update was performed, the value can be retrieved. This is usually queried by the [Relayer](relayer.md) and pushed into Collybus.&#x20;
 
 Also, when querying the value, a boolean flag is also returned which signifies if the latest `update` executed successfully. This flag should always be checked for truthness when retrieving the value.
 

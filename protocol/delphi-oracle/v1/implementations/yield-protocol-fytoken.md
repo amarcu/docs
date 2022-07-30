@@ -6,7 +6,7 @@ description: Yield Protocol fyToken Oracle Implementation
 
 ### 🔎 High-level Overview
 
-The Oracle is implemented as a simple [Uniswap V2 Oracle](https://docs.uniswap.org/protocol/V2/guides/smart-contract-integration/building-an-oracle). The discount rate is computed by taking the difference between the cumulative price at the beginning and end of the period and then divided by the elapsed time between them in seconds. The resulting price is converted to a per-second rate that is used by the [Relayer](../../relayer.md) to push values to [Collybus](../../../fiat/).
+The Oracle is implemented as a simple [Uniswap V2 Oracle](https://docs.uniswap.org/protocol/V2/guides/smart-contract-integration/building-an-oracle). The discount rate is computed by taking the difference between the cumulative price at the beginning and end of the period and then divided by the elapsed time between them in seconds. The resulting price is converted to a per-second rate that is used by the [Relayer](../relayer.md) to push values to [Collybus](../../../fiat/).
 
 ### 🐣 Initialization
 
@@ -26,7 +26,7 @@ All of the initial parameters are `immutable` which means once they are set they
 
 ### 🌈 Execution Flow
 
-Each specific oracle implementation must define the `Oracle.getValue()` function. This function is called when the global execution flow is triggered by the [Relayer](../../relayer.md). &#x20;
+Each specific oracle implementation must define the `Oracle.getValue()` function. This function is called when the global execution flow is triggered by the [Relayer](../relayer.md). &#x20;
 
 To obtain the new price we compute the delta between the current and the previous cumulative balance ratio which we keep in storage as`cumulativeBalanceRatioLast` and `blockTimestampLast`. The last step is to scale the delta by `timeScale` and convert the rate to an 18-digit precision fixed-point number.
 

@@ -24,7 +24,7 @@ All of the initial parameters are `immutable` which means once they are set they
 
 ### 🌈 Execution Flow
 
-Each specific oracle implementation must define the `Oracle.getValue()` function. This function is called when the global execution flow is triggered by the [Relayer](../../relayer.md). &#x20;
+Each specific oracle implementation must define the `Oracle.getValue()` function. This function is called when the global execution flow is triggered by the [Relayer](../relayer.md). &#x20;
 
 To obtain the new price the Oracle will retrieve the latest data from the Chainlink Data Feed by calling the `latestRoundData()`. After the price is retrieved it is converted to an 18-digit fix-point number.
 
