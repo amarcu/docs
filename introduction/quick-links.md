@@ -13,7 +13,7 @@ Check out our [**Linktree**](https://linktr.ee/fiatdao) for the most up-to-date 
 **FIAT Protocol**
 
 * **dApp:** [https://app.fiatdao.com](https://app.fiatdao.com)
-* **Dune:** [https://dune.com/1ab/FIAT](https://dune.com/1ab/FIAT)
+* **Dune:** [https://dune.com/fiat\_lux/fiat-dao](https://dune.com/fiat\_lux/fiat-dao), **** [https://dune.com/1ab/FIAT](https://dune.com/1ab/FIAT)
 * **GitHub:** [https://github.com/fiatdao](https://github.com/fiatdao)
 
 **Collateral Sources**
