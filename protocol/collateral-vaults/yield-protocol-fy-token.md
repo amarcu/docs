@@ -4,7 +4,16 @@ description: Yield Protocol allows users to borrow and lend tokens at a fixed ra
 
 # Yield Protocol fyToken
 
-TODO
+Yield Protocol is the third collateral partner for FIAT. Yield Protocol's _fyTokens_ represent a claim on the future redemption of both **a)** the initial principal lent & **b)** the fixed yield for having done so, and can thus be viewed as Zero Coupon Bond-like assets. Users are able to earn a fixed yield on them through one of two ways:
+
+* **Minting fyTokens:** When lending on Yield Protocol, users receive a nominal amount of fyToken (e.g. fyUSDC, fyDAI) amounting to the sum of their principal and the fixed yield they are to receive. While fyTokens are redeemable for the corresponding underlier at a 1:1 ratio, one cannot do so until maturity has been reached.
+* **Purchasing fyTokens at a discount:** Yield Protocol supports liquidity pools for each of its fyTokens series, meaning users can purchase these assets at a discount to face value due to the time value of money and hold them until maturity.
+
+**Yield Protocol Basics:** [https://docs.yieldprotocol.com/#/](https://docs.yieldprotocol.com/#/)
+
+**Minting fyTokens:** [https://app.yieldprotocol.com/lend](https://app.yieldprotocol.com/lend)
+
+**YieldSpace Whitepaper:** [https://yieldprotocol.com/YieldSpace.pdf](https://yieldprotocol.com/YieldSpace.pdf)
 
 ## Fixed Yield Token Vault
 
