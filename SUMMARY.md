@@ -46,7 +46,7 @@
 * [🇨🇭 Deploying Paired Liquidity](guides/deploying-paired-liquidity.md)
 * [🗼 Releverage Fixed Rates](guides/releverage-fixed-rates.md)
 * [🤹♀ Vote in Governance](guides/vote-in-governance.md)
-* [Host a Frontend](guides/host-a-frontend.md)
+* [🖥 Host a Frontend](guides/host-a-frontend.md)
 
 ## Programs
 

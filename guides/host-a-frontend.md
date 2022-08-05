@@ -2,7 +2,7 @@
 description: How to host FIAT UI on fleek for free (in less than 5 minutes)
 ---
 
-# Host a Frontend
+# 🖥 Host a Frontend
 
 1. [Create a free Alchemy account](https://www.alchemy.com/)
 2. Create two apps on Alchemy: one for Goerli Testnet and for Mainnet
