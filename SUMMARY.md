@@ -31,6 +31,7 @@
       * [Chainlink + Curve LP Token Feed](protocol/delphi-oracle/v1/implementations/chainlink-+-curve-lp-token-feed.md)
     * [Oracle](protocol/delphi-oracle/v1/oracle.md)
     * [Relayer](protocol/delphi-oracle/v1/relayer.md)
+* [🧰 SDK](protocol/sdk.md)
 * [📊 Subgraph](protocol/subgraph.md)
 * [💾 Deployment](protocol/deployment.md)
 

@@ -1,7 +1,3 @@
----
-description: Understanding the FIAT protocol
----
-
 # 🌅 FIAT v1
 
 ## What is FIAT?
