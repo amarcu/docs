@@ -4,4 +4,4 @@ description: Javascript SDK for interacting with the FIAT smart contracts and su
 
 # 🧰 SDK
 
-{% embed url="https://github.com/fiatdao/fiat-sdk" %}
+{% embed url="https://github.com/fiatdao/sdk" %}

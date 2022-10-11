@@ -1,3 +1,7 @@
+---
+description: FIAT DAO source of truth
+---
+
 # 🔮 Delphi Oracle
 
 ### 🔎 High-level Overview

@@ -1,3 +1,7 @@
+---
+description: How to query the FIAT protocol
+---
+
 # 📊 Subgraph
 
 The Graph is a decentralized protocol for indexing and querying data from blockchains. Individual applications can have their specific queries represented via _subgraphs_.&#x20;
