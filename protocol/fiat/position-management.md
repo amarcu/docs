@@ -1,6 +1,6 @@
 # Position Management
 
-For each asset supported by FIAT a user can create a [`Position`](https://github.com/fiatdao/fiat/blob/main/src/Codex.sol#L70) which is comprised of the current absolute amounts of collateral (of the supported asset) and normalized debt (realized as $FIAT). A position is uniquely [identified](https://github.com/fiatdao/fiat/blob/main/src/Codex.sol#L70) by its collateral asset (Address of the Vault + `TokenId`) and the original creator of the Position.
+For each asset supported by FIAT a user can create a [`Position`](https://github.com/fiatdao/fiat-i/blob/main/src/core/Codex.sol#L70) which is comprised of the current absolute amounts of collateral (of the supported asset) and normalized debt (realized as $FIAT). A position is uniquely [identified](https://github.com/fiatdao/fiat-i/blob/main/src/core/Codex.sol#L70) by its collateral asset (Address of the Vault + `TokenId`) and the original creator of the Position.
 
 #### Depositing and Withdrawing collateral assets in and out of FIAT
 
@@ -16,7 +16,7 @@ Each approved Vault in Codex is able to call `modifyBalance` which records depos
 
 #### Adjusting a Position's collateral-to-debt ratio
 
-[`modifyCollateralAndDebt`](https://github.com/fiatdao/fiat/blob/main/src/Codex.sol#L297) allows for adjusting `collateral` and `normalDebt` of a Position. Whereby `user` is the owner of the Position, `collateralizer` is the account from which collateral is transferred to or from the Position, `creditor` account from which `credit`is transferred to or from the Position, depending on if the `deltaCollateral` and `deltaNormalDebt` amounts are positive or negative.
+[`modifyCollateralAndDebt`](https://github.com/fiatdao/fiat-i/blob/main/src/core/Codex.sol#L297) allows for adjusting `collateral` and `normalDebt` of a Position. Whereby `user` is the owner of the Position, `collateralizer` is the account from which collateral is transferred to or from the Position, `creditor` account from which `credit`is transferred to or from the Position, depending on if the `deltaCollateral` and `deltaNormalDebt` amounts are positive or negative.
 
 #### Depositing and Withdrawing $FIAT in and out of FIAT
 
